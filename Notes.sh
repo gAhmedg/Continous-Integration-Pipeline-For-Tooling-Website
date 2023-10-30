@@ -1,8 +1,19 @@
+export PS1="\e[30;45m[jenkins@ \W]# \e[m "
+export PS1="\e[36;40m[NFS@ \W]# \e[m "
+
+
+
+
+
+
+###########################################################
+###########################################################
 export PS1="\e[40;31m[Web-server-1@\h \W]#\e[m "
 export PS1="\e[40;31m[Web-server-2@\h \W]#\e[m "
 export PS1="\e[33;40m[DB-server@\h \W]#\e[m "
 export PS1="\e[36;40m[NFS@\h \W]# \e[m "
 export PS1="\e[32;40m[Apeach-LB@\h \W]# \e[m "
+
 
 /mnt/apps 172.31.16.0/20(rw,sync,no_all_squash,no_root_squash)
 /mnt/logs 172.31.16.0/20(rw,sync,no_all_squash,no_root_squash)
